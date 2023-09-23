@@ -94,10 +94,10 @@ function Page() {
                                 ring-white cursor-pointer w-[24rem] h-9 rounded-md mt-9 px-10'
                                 placeholder='Mail'
                                 />
-                                <textarea name="" id="" cols="10" rows="6"
+                                {/* <textarea name="" id="" cols="10" rows="6"
                                 className='mix text-gray-300 ring-1 max-lg:w-[18rem]
                                 ring-white cursor-pointer rounded-md mt-9 px-10 w-[24rem] pt-1'
-                                >Message</textarea>
+                                >Message</textarea> */}
 
 
                             </div>

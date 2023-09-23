@@ -1,13 +1,13 @@
 import React from 'react'
-import star from "./images/star.png"
+import star from "../images/star.png"
 import Image from 'next/image'
-import vector from "./images/vector.png"
-import creative from "./images/Creative.png"
-import chain from "./images/chain.png"
-import sunshines from "./images/sunshines.png"
-import manWearingGlasses from "./images/man-wearing-glasses.png"
-import star1 from "./images/star-1.png"
-import world from "./images/world.png"
+import vector from "../images/vector.png"
+import creative from "../images/Creative.png"
+import chain from "../images/chain.png"
+import sunshines from "../images/sunshines.png"
+import manWearingGlasses from "../images/man-wearing-glasses.png"
+import star1 from "../images/star-1.png"
+import world from "../images/world.png"
 
 function Hero() {
   return (
