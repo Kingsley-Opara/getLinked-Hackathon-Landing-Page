@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Navbar from './componets/navbar'
-import Hero from './hero'
+import Hero from './componets/hero'
 
 export default function Home() {
   return (
