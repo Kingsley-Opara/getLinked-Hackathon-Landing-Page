@@ -1,6 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+/* @layer base{
+  .register{
+      @apply boarder rounded-md py-3 px-8 cursor-pointer
+
+  }
+} */
+
+@layer base{
+  .register{
+      @apply bg-[#d434fe] rounded-md py-3 px-8 cursor-pointer
+  }
+
+}
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -24,4 +42,24 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+#black{
+  background-color: black;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mix{
+  background-color: color-mix(in srgb, #43097C, black);
+}
+.text-mix{
+  color: color-mix(in srgb, #43097C, black);
+
+}
+
+.bg-image{
+  background-image: url(./images/purple-flare.png);
 }
